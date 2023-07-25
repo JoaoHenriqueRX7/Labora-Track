@@ -37,7 +37,7 @@ class AuthenticationWindow:
     def verify_password(self):
         password = self.password_entry.get()
         self.root.destroy()  # Fechar a janela de autenticação
-        if password == "DP@angular":   
+        if password == "pass":   
             open_interface()
         else:
             messagebox.showerror("Erro", "Senha incorreta.") 
